@@ -1,0 +1,12 @@
+query GetVote {
+  getVote {
+    id
+    regionId
+    team
+    vote
+    regions {
+      id
+      region
+    }
+  }
+}

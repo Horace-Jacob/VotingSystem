@@ -1,0 +1,8 @@
+fragment UserResponseSnippet on AccountErrorMap {
+  errors {
+    ...ErrorSnippet
+  }
+  accounts {
+    ...UserSnippet
+  }
+}

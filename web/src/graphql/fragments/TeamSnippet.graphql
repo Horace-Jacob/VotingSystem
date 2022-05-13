@@ -1,0 +1,6 @@
+fragment TeamSnippet on Vote {
+  id
+  regionId
+  team
+  vote
+}

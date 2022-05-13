@@ -1,0 +1,6 @@
+query Regions {
+  getRegions {
+    id
+    region
+  }
+}

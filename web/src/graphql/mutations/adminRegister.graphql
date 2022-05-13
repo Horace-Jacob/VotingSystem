@@ -1,0 +1,5 @@
+mutation AdminRegister($fields: CreateAccountFields!) {
+  adminRegister(fields: $fields) {
+    ...AdminResponseSnippet
+  }
+}

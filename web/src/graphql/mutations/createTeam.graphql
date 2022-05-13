@@ -1,0 +1,8 @@
+mutation CreateTeam($team: String!, $regionId: Int!) {
+  createTeam(team: $team, regionId: $regionId) {
+    id
+    regionId
+    team
+    vote
+  }
+}

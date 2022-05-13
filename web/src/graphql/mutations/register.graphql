@@ -1,0 +1,5 @@
+mutation CreateAccount($fields: CreateAccountFields!) {
+  createAccount(fields: $fields) {
+    ...UserResponseSnippet
+  }
+}

@@ -1,0 +1,8 @@
+fragment AdminResponseSnippet on AdminErrorMap {
+  errors {
+    ...ErrorSnippet
+  }
+  accounts {
+    ...AdminSnippet
+  }
+}

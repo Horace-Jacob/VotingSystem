@@ -1,0 +1,4 @@
+fragment UserSnippet on Account {
+  id
+  username
+}
